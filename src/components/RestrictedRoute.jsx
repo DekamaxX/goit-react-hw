@@ -10,7 +10,7 @@ export const RestrictedRoute = ({
   component: Component,
   redirectTo = '/',
 }) => {
-  // component - RegisterPage or LoginPage
+  // component - RegisterPage or LoginPage..
   const { isLoggedIn } = useAuth(); // component - RegisterPage or LoginPage
 
   return isLoggedIn ? (
